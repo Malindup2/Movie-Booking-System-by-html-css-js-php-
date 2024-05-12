@@ -1,0 +1,99 @@
+body
+{
+    background-image: url('theater/deadpool.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.container
+{
+    padding: 40px;
+    padding-left: 90px;
+    padding-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    grid-template-columns: repeat(auto-fit,minmax(170px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    background-color: rgba(253, 253, 253, 0.116);
+    border-radius: 30px;
+    
+}
+
+.heading
+{
+    cursor:default;
+   padding-left: 250px;
+   padding: 20px;
+   white-space: normal;
+    margin-top: 6rem;
+    font-weight: 1000;
+    font-size: 3rem;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--main-color);
+    color:#ff0000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.034);
+}
+
+
+.heading:hover
+{
+    
+    transition-delay: initial;
+    animation: forwards;
+    transform-style: preserve-3d;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.box-img
+{
+    width: 90px;
+    height: 140px;
+    box-shadow: 20px 20px 10px;
+    color: black;
+
+}
+
+.box-img img
+{
+    width: 100px;
+    height: 160px;
+    object-fit:cover ;
+    border-radius: 10px;
+}
+
+.box-img img:hover
+{
+    transform: translateY(-10px);
+    transition: 0.1s all linear;
+}
+
+.card h3
+{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.1rem;
+    text-align: center;
+    margin-top: 2rem;
+    width: 90px;
+
+}
+
+
+.card
+{
+    margin-bottom: 20px;
+}

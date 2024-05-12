@@ -1,0 +1,75 @@
+/* Style the container */
+.signupcontainer {
+    margin: 20px auto;
+    width: 500px; /* Adjust the width to control the size of the form */
+    padding: 20px;
+    background-color: #000000c9;
+    border-radius: 10px;
+}
+
+/* Center the form horizontally */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the form header */
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Style the input fields */
+input[type=text], input[type=email], input[type=password], input[type=tel] {
+    width: 490px;
+    box-sizing: border-box;
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+    background-color: #ffffffd2;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    height: 33px;
+    text-align: center;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Style the submit button */
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.signupbtn:hover {
+    background-color: #45a049;
+    transform: translateY(1%);
+}
+
+/* Add a hover effect to all form inputs */
+input[type=text]:hover, input[type=email]:hover, input[type=password]:hover, input[type=tel]:hover {
+    background-color: #ffffff;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

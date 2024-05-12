@@ -1,0 +1,128 @@
+.row {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.col {
+    width: 50%;
+    margin:10px 10px 20px 50px;
+    padding-bottom: 18px;
+    height: 260px;
+    background: rgba(245, 243, 243, 0.096);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.089);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.925);
+}
+
+.theater {
+    padding: 50px 50px 0 50px;
+    width: 360px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+
+
+.location-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the container */
+}
+
+
+.location-container h3
+{
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+    margin-left: 80px;
+    padding: 0;
+}
+
+
+
+.pin {
+    width: 20px;
+    height: 20px ;
+    background-color: #ff0000 ;
+    border-radius: 70px 40px 0px 40px ;
+    position:relative ;
+    transform: rotate(45deg);
+  }
+  .pin::after {
+    content: "" ;
+    width: 10px ;
+    height: 10px ;
+    background: #ffffff ;
+    position: absolute ;
+    left: 26% ;
+    top: 26% ;
+    border-radius: 70px ;
+  }
+
+.posOfpin
+{
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 0;
+    position: absolute;
+    margin-bottom: 17px;
+}
+
+.view a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.view 
+{
+
+    position:absolute;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    min-width: 130px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    box-shadow:0 0 0 2px #ff000096;
+    background-color:#fff;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.view:hover{
+    color: #fff;
+    background-color: #00802b;
+    box-shadow: none;
+}
+
+
+body
+{
+    margin: 0;
+    position: relative;
+   /* background-image: url('SliderImg/MuchaTseBle1.jpeg');*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(35px);
+   
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
